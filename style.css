@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0f172a;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  line-height: 1.6;
+}
+nav {
+  padding: 20px;
+}
+.nav-links {
+  float: right;
+  list-style: none;
+}
+.nav-item {
+  display: inline-block;
+  margin-left: 32px;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+#hero {
+  text-align: center;
+}
+.hero-img {
+  width: 12%;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid#ffbf24;
+}
+.hero-name {
+  font-size: 40px;
+  font-weight: 800px;
+  margin-bottom: 10px;
+}
+.hero-title {
+  color: #94a3b8;
+}
+#about {
+ 
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 80px; 20px;
+}
+.about-heading {
+  font-size: 32px;
+  font-weight: 700px;
+ 
+}
+.about-bio {
+  margin: 16px 0;
+  color: #94a3b8;
+}
+.skills-list {
+  list-style: none;
+  
+}
+.skill-badge {
+  background-color: #1e293b;
+  color: #e2ed0b;
+  display: inline-block;
+  margin: 4px;
+  padding: 6px 16px;
+  border-radius: 20px;
+  
+}
+#contact {
+ max-width: 600px;
+
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+.contact-heading {
+  font-size: 32px;
+  font-weight: 700px;
+  color: #ffbf24;
+}
+.form-input {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #1e293b;
+  color: white;
+  display: block;
+  border: 1px solid yellow;
+}
+.form-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+.form-btn {
+  background-color: #ffbf24;
+  color: #0f172a;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 16px 32px;
+  margin:auto
+}
+footer {
+  border-top: 1px solid #f5f5f5;
+  text-align: center;
+  padding: 60px 20px;
+}
+.footer-link {
+  color:#94a3b8;
+  text-decoration: none;
+  margin: 16px;
+  display: inline-block;
+  font-weight: 600;
+
+}
+.footer-link:hover {
+  color: #ffbf24;
+}
